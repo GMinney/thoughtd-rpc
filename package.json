@@ -1,6 +1,6 @@
 {
-  "name": "bitcoind-rpc",
-  "description": "Bitcoin Client Library to connect to Bitcoin Core via RPC",
+  "name": "thoughtd-rpc",
+  "description": "Thought Client Library to connect to Thought Core via RPC",
   "version": "0.9.0",
   "author": {
     "name": "Stephen Pair",
@@ -22,6 +22,10 @@
     {
       "name": "Braydon Fuller",
       "email": "braydon@bitpay.com"
+    },
+    {
+      "name": "Gavin Minney",
+      "email": "gminney@thought.live"
     }
   ],
   "keywords": [
@@ -30,7 +34,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/bitpay/bitcoind-rpc"
+    "url": "https://github.com/GMinney/bitcoind-rpc"
   },
   "license": "MIT",
   "main": "lib/index.js",
@@ -46,7 +50,7 @@
     "sinon": "^18.0.0"
   },
   "bugs": {
-    "url": "https://github.com/bitpay/bitcoind-rpc/issues"
+    "url": "https://github.com/GMinney/bitcoind-rpc/issues"
   },
-  "homepage": "https://github.com/bitpay/bitcoind-rpc"
+  "homepage": "https://github.com/GMinney/bitcoind-rpc"
 }
