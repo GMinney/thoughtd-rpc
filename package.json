@@ -2,6 +2,8 @@
   "name": "thoughtd-rpc",
   "description": "Thought Client Library to connect to Thought Core via RPC",
   "version": "0.9.0",
+  "type": "module",
+  "exports": "./lib/index.js",
   "author": {
     "name": "Stephen Pair",
     "email": "stephen@bitpay.com"
@@ -45,9 +47,10 @@
   "devDependencies": {
     "async": "^3.2.6",
     "chai": "^5.1.1",
-    "nyc": "17.0.0",
     "mocha": "^10.7.3",
-    "sinon": "^18.0.0"
+    "nyc": "17.0.0",
+    "sinon": "^18.0.0",
+    "typescript": "^5.7.3"
   },
   "bugs": {
     "url": "https://github.com/GMinney/bitcoind-rpc/issues"
